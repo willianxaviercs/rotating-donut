@@ -1,9 +1,14 @@
+#if 0
+gcc $0 -Wall -lm -o ${0%.*}; exit
+#endif
+
 //
 // Created by arsikurin on 19.02.2021.
 //
 #include <stdio.h>
 #include <math.h>
 #include <string.h>
+#include <unistd.h>
 
 int main() {
     float A = 0, B = 0;
